@@ -132,6 +132,9 @@ namespace KRPC.SpaceCenter.Services.Parts
             
         }
 
+        /// <summary>
+        /// Set piston extension to input value.
+        /// </summary>
         public void SetExtension(float value)
         {
             BaseAxisField field = (BaseAxisField)typeof(ModuleRoboticServoPiston)

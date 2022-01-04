@@ -131,7 +131,9 @@ namespace KRPC.SpaceCenter.Services
             }
         }
 
-
+        /// <summary>
+        /// Update the alarm based on its ID.
+        /// </summary>
         public void UdateAlarm() 
         {
             AlarmTypeBase newalarm;
