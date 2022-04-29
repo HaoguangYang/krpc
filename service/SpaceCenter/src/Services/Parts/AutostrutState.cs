@@ -4,39 +4,39 @@ using KRPC.Service.Attributes;
 namespace KRPC.SpaceCenter.Services.Parts
 {
     /// <summary>
-    /// The state of a radiator. <see cref="RadiatorState"/>
+    /// The state of a Autostrut. <see cref="RadiatorState"/>
     /// </summary>
     [Serializable]
     [KRPCEnum(Service = "SpaceCenter")]
     public enum AutostrutState
     {
-        ///<summary>
-        /// 0
-        ///</summary>
-        Off, 
-        ///<summary>
-        /// 1
-        ///</summary>
+        /// <summary>
+        /// Off
+        /// </summary>
+        Off,
+        /// <summary>
+        /// Root
+        /// </summary>
         Root,
-        ///<summary>
-        /// 2
-        ///</summary>
+        /// <summary>
+        /// Heaviest
+        /// </summary>
         Heaviest,
-        ///<summary>
-        /// 3
-        ///</summary>
+        /// <summary>
+        /// Grandparent
+        /// </summary>
         Grandparent,
-        ///<summary>
-        /// 4
-        ///</summary>
+        /// <summary>
+        /// ForceRoot
+        /// </summary>
         ForceRoot,
-        ///<summary>
-        /// 5
-        ///</summary>
+        /// <summary>
+        /// ForceHeaviest
+        /// </summary>
         ForceHeaviest,
-        ///<summary>
-        /// 6
-        ///</summary>
+        /// <summary>
+        /// ForceGrandparent
+        /// </summary>
         ForceGrandparent
     }
 

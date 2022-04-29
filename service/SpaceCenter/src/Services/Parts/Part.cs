@@ -910,9 +910,9 @@ namespace KRPC.SpaceCenter.Services.Parts
             PartForcesAddon.AddInstantaneous (new Force (this, force, position, referenceFrame));
         }
 
-        ///<summary>
-        /// Sets yellow highlight of part and is always on.
-        ///</summary>
+        /// <summary>
+        /// Glow
+        /// </summary>
         [KRPCProperty]
         public bool Glow
         {
@@ -928,9 +928,9 @@ namespace KRPC.SpaceCenter.Services.Parts
             }
         }
 
-        ///<summary>
-        /// Gets autoStrut mode of the selected part.
-        ///</summary>
+        /// <summary>
+        /// Autostrut
+        /// </summary>
         public AutostrutState AutoStrutMode
         {
             get

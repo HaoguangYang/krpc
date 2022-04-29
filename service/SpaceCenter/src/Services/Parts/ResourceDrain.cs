@@ -35,7 +35,7 @@ namespace KRPC.SpaceCenter.Services.Parts
         }
 
         /// <summary>
-        /// Return if two drains are the same (the same part and the same drain).
+        /// Returns true if the objects are equal.
         /// </summary>
         public override bool Equals(ResourceDrain other)
         {
@@ -114,11 +114,11 @@ namespace KRPC.SpaceCenter.Services.Parts
         [KRPCEnum(Service = "SpaceCenter")]
         public enum DrainModes {
             /// <summary>
-            /// 0
+            /// Part
             /// </summary>
             part,
             /// <summary>
-            /// 1
+            /// Vessel
             /// </summary>
             vessel
         }
@@ -162,7 +162,6 @@ namespace KRPC.SpaceCenter.Services.Parts
         /// <summary>
         /// Activates resource drain for all enabled parts
         /// </summary>
-     
         [KRPCMethod]
         public void Start()
         {
@@ -179,5 +178,5 @@ namespace KRPC.SpaceCenter.Services.Parts
         }
 
 
-        }
+    }
 }
